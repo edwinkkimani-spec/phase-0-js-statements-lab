@@ -5,11 +5,11 @@ if(temperature>80) {
  console.log("Water off");
 }
  
-const timeOfDay = "morning";
-if(timeOfDay === "morning"){
-    console.log("Lights off");
+const timeOfDay = "Morning";
+if(timeOfDay === "Evening"||timeOfDay==="Night"){
+    console.log("Lights on");
 } else{
-  console.log("Lights on");
+  console.log("Lights off");
 }
 
 let soilMoisture =10;
